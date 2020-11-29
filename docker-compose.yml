@@ -1,0 +1,6 @@
+version: '3.1'
+services:
+  spring-graalvm-demo:
+    image: spring-graalvm-demo:1.0.0-SNAPSHOT
+    ports:
+      - "8080:8080"
